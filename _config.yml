@@ -1,0 +1,15 @@
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# title: Your Page Title
+
+url: "https://bitpatty.github.io/tina"
+
+logo_url: "https://via.placeholder.com/150"
+
+github_username: bitpatty
+github_url: "https://github.com/bitpatty/tina"
+repository_name: "tina"
+
+markdown: kramdown

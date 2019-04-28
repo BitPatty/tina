@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.4;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  position: relative;
+  padding-bottom: 150px;
+}
+
+@media screen and (max-width: $media-trigger) {
+  body {
+    padding-bottom: 0;
+  }
+}

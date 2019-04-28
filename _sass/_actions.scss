@@ -81,6 +81,11 @@ input[type="text"] {
   cursor: text;
 }
 
+select:disabled,
+input:disabled {
+  color: gray;
+}
+
 input[type="checkbox"] {
   -webkit-appearance: none;
   -moz-appearance: none;

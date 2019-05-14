@@ -5,3 +5,14 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
+
+
+.site-description {
+  a {
+    color: #44ffb3;
+
+    &:hover {
+      color: #93ffd3;
+    }
+  }
+}

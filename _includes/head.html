@@ -4,7 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/assets/favicon.png">
 
+  {% if site.title  %}
+  <title>{{ site.title }}</title>
+  {% elsif site.github.repository_name %}
   <title>{{ site.github.repository_name }}</title>
+  {% endif %}
 
   {% if site.github.project_tagline %}
   <meta name="description"

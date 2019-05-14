@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'jekyll-theme-tina'
-  s.version       = '0.1.7'
+  s.version       = '0.1.8'
   s.license       = 'CC0-1.0'
   s.authors       = ['Matteias Collet']
   s.email         = ['matteias.collet@bluewin.ch']
